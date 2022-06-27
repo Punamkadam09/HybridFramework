@@ -13,6 +13,7 @@ public class LoginTest extends BaseTest {
 	@Test(priority=2)
 	public void verifyValidLogin() 
 	{
+		System.out.println("Hello Git");
 		String tcname = "verifyValidLogin_TC02";
 		logger = extent.createTest(tcname);
 		LoginPage lp = new LoginPage(driver,logger);
